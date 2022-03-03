@@ -1,5 +1,4 @@
-btn-translate = document.getElementById("btn-translate")
-
-btn-translate.onclick = function() {
-  alert(btn-translate.text)
+document.getElementById("btn-translate").onclick = function() {
+  alert(document.getElementById("btn-translate").text)
+  
 };
